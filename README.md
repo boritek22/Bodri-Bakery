@@ -100,11 +100,17 @@ Az adminisztrátor ezen felül adhat vagy elvehet moderátori jogot.
 * Felhasználói dokumentáció:
 	* GitHubról letöltött bacendet és frontendet fordítsa és futtassa
 		* a backendet IntelliJ segítségével
+			* A projekt clean buildelése után futtatás a run gombbal.
 		* frontendet visual studio code segtségével
-			* terminálná használja a npm install majd npm start parancsokat
+			* A terminálnál használja a npm install majd npm start parancsokat
 	* Töltse be az oldalt Böngésző segítségével (localhost:4200)
-	* Bejelenkezes felhasználónév és jelszó segítségével	
+	* Bejelenkezés felhasználónév és jelszó segítségével	
 	* A receptnevek alatt található süteményekre kattintva kilistázhatjuk hogy az adott sütihez milyen hozzávalók kellenek, milyen nehéz elkészíteni és a leírását olvashatjuk
 	* ha visszalépünk akkor az új recept gombra kattintva új receptet adhatunk hozzá a profilunkhoz
-			
-
+* Folyamatleírás:
+	* Új recept létrehozásának folyamata: 
+		* Authorizált folyamat, csupán fiókkal rendeklező, bejelentkezett felhasználók számára elérhető ez a funkció. Az egyes felhasználókat és az ő receptjeiket felsoroló oldalon tudunk új receptet létrehozni, mely a mentés után az éppen bejelentkezve lévő felhasználó receptlistájához fog hozzáadódni. A recept létrehozásakor 3 dolgot lehet beadni a rendszernek: 
+			* Étel neve
+			* Nehézségi fokozat
+			* Leírás
+Az új receptet menteni a Mentés gomb megnyomásával lehet.
